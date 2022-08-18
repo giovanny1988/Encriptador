@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./Imagenes/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./Estilos/normalize.css">
+    <link rel="stylesheet" href="./Estilos/estilos.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+     <img class="logo" src="./Imagenes/alura.png" width="150px" height="150px" alt="Alura logo">
+     <h1>Encriptador</h1>
+    </header>
+
+    <main>
+        <div class="contenedor">
+            <form action="">
+                  <textarea style="border: none;"  id="textoArea" placeholder="&#9998; Ingrese texto aqui"></textarea>
+                  <p class="advertencia">&#9888; Solo letras minusculas y sin acentos</p>
+                <div class="btn">
+                    <button type="button" onclick="encriptarTexto()">Encriptar</button>
+                    <button type="button" onclick="desencriptarTexto()">Desencriptar</button>
+                </div>    
+                
+            </form>
+        </div>
+
+        <div class="contenedor">
+            <form action="">
+                <textarea class="caja" style="border: none;" id="caja" placeholder="&#x1f50d;&#xfe0e; Ningun texto ingresado...."></textarea>
+                <div class="btn1">
+                    <button type="button" onclick="copiarTexto()">Copiar y pegar</button>
+                    <button type="button" onclick="limpiarCampos()">Limpiar campos</button>
+                </div>    
+            </form>
+        </div>
+    </main>
+<footer>
+    <div class="infoPie">
+        <p class="pie">Wilmer Giovanny Vanegas Sanchez &nbsp; &nbsp; | &nbsp; &nbsp;Estudiante  de Desarrollo web y software &nbsp;&nbsp; | &nbsp; &nbsp; Bogotá, Colombia<br></p><br>
+        <a target="_blank" href="https://www.facebook.com/profile.php?id=100068962103938"><img class="redes" src="./Imagenes/facebook.png" alt="Logo Facebook">&nbsp;&nbsp;</a>
+        <a target="_blank" href="https://github.com/giovanny1988"><img class="redes" src="./Imagenes/github.png" alt="github logo">&nbsp;&nbsp;</a>
+        <a target="_blank" href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"><img class="redes" src="./Imagenes/linkedin.png" alt="linkedin logo"></a><br>
+        <p class="pie">2022</p>
+    </div>
+</footer>
+<script src="./JS/script.js"></script>
+    
+</body>
+</html>

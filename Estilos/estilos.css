@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Signika+Negative&display=swap');
+
+body{
+    font-family: 'Signika Negative', sans-serif;
+    background-color: #f3f5fc;
+}
+header{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background-color: #003153;
+}
+h1{
+    font-size: 60px;
+     color:white;
+}
+
+main{
+    margin: 10px 0;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    background-color: #f3f5fc;
+
+}
+
+footer{
+    width: 100%;
+    height: 300px;
+    background-color:#003153;
+}
+
+textarea{
+    width: 100%;
+    height:500px;
+    resize: none;
+    font-size: 20px;
+    background-color: #f3f5fc;
+    
+}
+button{
+    background-color:#2171b3;
+    border-radius: 20px;
+    width: 14em;
+    height: 40px;
+    color: white;
+    border: none;
+   
+}
+button:hover{
+    background-color: lightblue;
+    transition-duration: 0.90s;
+}
+
+.contenedor{
+    width: 600px;
+    height: auto;
+    padding: 20px;
+    margin-top: 15px;
+    border: 2px solid #003153;
+    border-radius: 20px;
+}
+.btn{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn1{
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+::placeholder{
+    font-size: 20px;
+    text-align: center;
+
+}
+
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    padding: 40px;
+}
+
+.infoPie{
+    width: 50%;
+    height: auto;
+    margin: auto;
+}
+.pie{
+    font-size: 17px;
+    margin: auto;
+}
+
+
+@media screen and (max-width:600px ) {
+    .btn{
+        display: block;
+    }
+    .btn1{
+        display: block;
+    }
+
+    button{
+        width: 100%;
+        height: 40px;
+        margin-top: 10px;
+        text-align: center;  
+    }
+
+    button:hover{
+        background-color: aqua;
+        transition-duration: 0.90s;
+    }
+
+    .contenedor{
+        display: block;
+        margin-top: 20px;
+    }
+    header{
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+    .logo{
+        width: 60px;
+        height: 60px;
+    }
+    footer{
+        padding: 7px;
+    }
+    .redes{
+        width: 20px;
+        height: 20px;
+    }
+}
+
+
+
